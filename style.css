@@ -12,6 +12,7 @@
     height: 100vh;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgb(35, 22, 213);
 }
 
 .logo-moto {
@@ -46,10 +47,11 @@ video {
 
 h1 {
     width: 300px;
+    color: #fff;
 }
 
 p {
-    color: black;
+    color: #fff;
     margin-top: 12px;
     font-size: 24px;
 }
@@ -57,12 +59,18 @@ p {
 button {
     height: 40px;
     width: 200px;
-    background: #fff;
+    background: rgb(193, 78, 7);
     border: none;
     border-radius: 4px;
-    color: #000;
     margin-top: 20px;
     cursor: pointer;
+}
+
+span {
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    margin: 15px 15px 15px 15px;
 }
 
 @media screen and (max-width: 900px) {
@@ -107,7 +115,7 @@ button {
     button {
         margin: 0 auto;
         display: block;
-        background: #000;
+        background: #dc4f08;
         color: white;
     }
 }

@@ -152,13 +152,11 @@ footer {
 
     button {
         margin: 0 auto;
-        margin-top: 30px;
-        margin-left: 10px;
         display:  inline-block;
         background: #dc4f08;
         color: white;
         height: 60px;
-        width: 320px;
+        width: 335px;
     }
 
     span {

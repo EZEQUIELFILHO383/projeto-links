@@ -55,6 +55,7 @@ p {
     color: #000;
     margin-top: 12px;
     font-size: 24px;
+    font-weight: bold;
 }
 
 button {
@@ -111,7 +112,7 @@ span {
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 38px;
         line-height: 52px;
         width: auto;
         margin: 58px 50px 0 50px;
@@ -126,6 +127,7 @@ span {
         font-size: 20px;
         line-height: 24px;
         color: black;
+        font-weight: bold;
     }
 
     .logo-viagem {

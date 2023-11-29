@@ -134,7 +134,7 @@ footer {
     }
 
     p {
-        margin: 15px 40px;
+        margin: 15px 40px 15px 40px;
         width: auto;
         text-align: center;
         font-size: 15px;
@@ -152,11 +152,12 @@ footer {
 
     button {
         margin: 0 auto;
+        margin-top: 30px;
         display: block;
         background: #dc4f08;
         color: white;
         height: 60px;
-        width: 300px;
+        width: 320px;
     }
 
     span {

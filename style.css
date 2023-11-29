@@ -12,7 +12,7 @@
     height: 100vh;
     align-items: center;
     justify-content: space-evenly;
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,43,253,1) 50%, rgba(242,146,10,1) 100%);
+    background: radial-gradient(circle, rgba(252,116,0,1) 0%, rgba(8,17,221,1) 100%);
 }
 
 .logo-moto {
@@ -87,7 +87,7 @@ span {
 
 @media screen and (max-width: 900px) {
     body {
-        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,43,253,1) 50%, rgba(242,146,10,1) 100%);
+        background: radial-gradient(circle, rgba(252,116,0,1) 0%, rgba(8,17,221,1) 100%);
     }
 
     .main-box {

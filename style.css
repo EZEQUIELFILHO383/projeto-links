@@ -114,10 +114,10 @@ span {
     }
 
     .logo-topo {
-        max-width: 55%;
-        max-width: 55%;
+        max-width: 75%;
+        max-width: 75%;
         margin-top: 40px;
-        margin-left: 70px;
+        margin-left: 42px;
         margin-bottom: 30px;
         display: inline-block;
     }
@@ -158,4 +158,6 @@ span {
         max-height: 20px;
         max-width: 20px;
     }
+
+
 }

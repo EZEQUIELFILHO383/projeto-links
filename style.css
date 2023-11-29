@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -12,7 +12,7 @@
     height: 100vh;
     align-items: center;
     justify-content: space-evenly;
-    background: radial-gradient(circle, rgba(252,116,0,1) 0%, rgba(8,17,221,1) 100%);
+    background: #fff;
 }
 
 .logo-moto {
@@ -22,6 +22,7 @@
 .main-box {
     width: 40%;
 }
+
 
 .box-video {
     position: fixed;
@@ -45,14 +46,15 @@ video {
     top: 0;
 }
 
-h1 {
-    width: 300px;
-    color: #000;
-    font-size: 50px;
+
+.logo-topo {
+    max-width: 90%;
+    max-width: 90%;
+
 }
 
 p {
-    color: #000;
+    color: blue;
     margin-top: 12px;
     font-size: 24px;
     font-weight: bold;
@@ -87,7 +89,7 @@ span {
 
 @media screen and (max-width: 900px) {
     body {
-        background: radial-gradient(circle, rgba(252,116,0,1) 0%, rgba(8,17,221,1) 100%);
+        background: #fff;
     }
 
     .main-box {
@@ -111,13 +113,13 @@ span {
         max-width: 90%;
     }
 
-    h1 {
-        font-size: 38px;
-        line-height: 52px;
-        width: auto;
-        margin: 58px 50px 0 50px;
-        text-align: center;
-        color: rgb(193, 78, 7);
+    .logo-topo {
+        max-width: 55%;
+        max-width: 55%;
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-bottom: 30px;
+        display: inline-block;
     }
 
     p {
@@ -126,8 +128,7 @@ span {
         text-align: center;
         font-size: 20px;
         line-height: 24px;
-        color: black;
-        font-weight: bold;
+        color: blue;
     }
 
     .logo-viagem {
@@ -143,6 +144,8 @@ span {
         display: block;
         background: #dc4f08;
         color: white;
+        height: 60px;
+        width: 300px;
     }
 
     span {
@@ -155,5 +158,4 @@ span {
         max-height: 20px;
         max-width: 20px;
     }
-
 }

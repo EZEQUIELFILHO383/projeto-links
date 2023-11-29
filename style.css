@@ -159,5 +159,14 @@ span {
         max-width: 20px;
     }
 
+    footer {
+        background: rgb(193, 78, 7);
+    }
+
+    .paragrafo-footer {
+        color: #fff;
+        font-size: 14px;
+    }
+
 
 }

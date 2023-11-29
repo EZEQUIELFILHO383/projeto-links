@@ -87,6 +87,17 @@ span {
     margin-right: 10px;
 }
 
+footer {
+    background: rgb(193, 78, 7);
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
 @media screen and (max-width: 900px) {
     body {
         background: #fff;

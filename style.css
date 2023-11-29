@@ -131,8 +131,10 @@ span {
     }
 
     .logo-viagem {
-        margin-top: 30px;
+        position: static;
+        max-height: 90%;
         margin-left: 15px;
+        margin-top: 20px;
     }
 
 
